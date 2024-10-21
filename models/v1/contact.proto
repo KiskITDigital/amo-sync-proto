@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package models.v1;
 
-message Company {
+message Contact {
     string name = 1;
     string first_name = 2;
     string last_name = 3;
