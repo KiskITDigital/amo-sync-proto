@@ -4,10 +4,15 @@ package models.v1;
 
 import "google/protobuf/timestamp.proto";
 
+enum Role {
+    Client = 0;
+    Contractor = 1;
+}
+
 message Company {
     string short_name = 1;
     string full_name = 2;
-    string role = 3;
+    Role role = 3;
     string inn = 4;
     string kpp = 5;
     string ogrn = 6;
