@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package models.v1;
+
+import "models/v1/company.proto";
+
+message CreateCompany {
+    models.v1.Company company = 1;
+}
