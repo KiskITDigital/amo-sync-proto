@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package models.v1;
-
-import "models/v1/contact.proto";
-
-message CreateContact {
-    models.v1.Contact contact = 1;
-}

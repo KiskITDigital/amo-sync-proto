@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package models.v1;
-
-message CreateLead {
-
-}
