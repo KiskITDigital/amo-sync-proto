@@ -12,11 +12,11 @@ message CreateLead {
     models.v1.Status status = 4;
     models.v1.Pipeline pipeline = 5;
     oneof contact {
-        string contact_external_id = 6;
+        int64 contact_external_id = 6;
         models.v1.Contact contact_model = 7;
     }
     oneof company {
-        string company_external_id = 8;
+        int64 company_external_id = 8;
         models.v1.Contact company_model = 9;
     }
     optional string initial_message = 10;
