@@ -11,7 +11,7 @@ message CreateLead {
     string name = 2;
     int64 external_lead_id = 3;
     models.v1.Status status = 4;
-    models.v1.Pipeline pipne = 5;
+    models.v1.Pipeline pipeline = 5;
     oneof contact {
         int64 contact_external_id = 6;
         models.v1.Contact contact_model = 7;
